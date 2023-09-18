@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-books-dir",
+  "version": "1.0.0",
+  "description": "Simple books directory REST api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "rest",
+    "api"
+  ],
+  "author": "Mads Kristiansen",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "uuid": "^9.0.1"
+  }
+}
