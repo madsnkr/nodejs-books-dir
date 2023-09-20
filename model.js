@@ -33,6 +33,15 @@ class Model {
     });
   }
 
+  static async delete(id) {
+    return new Promise((resolve,) => {
+      const updated = books.filter((book) => book.id !== id);
+      books.splice(0, books.length, ...updated);
+
+      resolve(updated);
+    });
+  }
+
   static async save() {
     try {
       await fsp.writeFile('./books.json', JSON.stringify(books), 'utf8');
