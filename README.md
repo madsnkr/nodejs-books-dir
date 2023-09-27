@@ -10,9 +10,9 @@ GET /api/books/:id
 # Add book
 POST /api/books
 # Update book
-PUT /api/book/:id
+PUT /api/books/:id
 # Delete book
-DELETE  /api/book/:id
+DELETE  /api/books/:id
 ```
 
 ### Usage
